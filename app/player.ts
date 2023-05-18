@@ -6,6 +6,10 @@ class Player implements Person {
     age: number;
     highScore: number;
 
+    constructor() {
+        console.log('Creating a new Player. His name is')
+    }
+
     formatName() {
         return this.name.toUpperCase();
     }
